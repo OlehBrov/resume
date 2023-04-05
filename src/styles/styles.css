@@ -1,5 +1,17 @@
 body {
   font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  background-image: url('../images/oie_8WcwDxQAzX8i.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
 }
 ul {
   list-style: none;
@@ -8,9 +20,23 @@ ul {
 }
 a {
   font-weight: 700;
+  color: rgb(36, 36, 36);
+}
+
+.contact_link{
+text-decoration: none;
+color: inherit;
+margin-left: -15px;
 }
 header {
+  display: flex;
+  flex-direction: column;
   padding: 15px 35px;
+  align-items: end;
+}
+.header_heading {
+  margin: 0;
+  padding: 0;
 }
 .container {
   padding: 15px 35px;
@@ -19,8 +45,79 @@ header {
 
 .left_side {
   width: 45%;
-  padding: 0 30px;
+  /* padding: 0 30px; */
 }
-.right_side{
-    padding: 0 30px;
+.right_side {
+  /* padding: 0 30px; */
+  margin-left: 20px;
+}
+.skills_section,
+.contacts_section {
+  margin-bottom: 10px;
+}
+.profile_photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  margin-bottom: 10px;
+}
+.heading {
+  box-shadow: 10px 10px 34px -11px rgba(0, 0, 0, 0.75);
+  border-radius: 0px 8px 8px 0px;
+  background-color: gray;
+  margin-left: -35px;
+  padding: 15px 45px;
+  margin-bottom: 10px;
+}
+.right_heading {
+  box-shadow: 10px 10px 34px -11px rgba(0, 0, 0, 0.75);
+  border-radius: 8px 0px 0px 8px;
+  background-color: gray;
+  margin-right: -35px;
+  padding: 15px 45px;
+  margin-bottom: 10px;
+}
+.summary_text{
+  padding: 8px 0px;
+}
+
+svg{
+  display: inline-block;
+  width: 17px;
+  fill: black;
+  margin-right: 5px;
+  
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.project_item{
+  position: relative;
+ border-left: 2px solid red;;
+  position: relative;
+  padding-left: 10px;
+}
+.project_item::after{
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  /* height: 3px; */
+  width: 50%;
+  border-bottom: 2px solid red;
+}
+.project_tech{
+  margin-top: 8px;
+  color: rgb(59, 58, 58);
+  margin-bottom: 8px;
+}
+
+.skills_list_soft{
+  list-style: circle;
 }

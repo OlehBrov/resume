@@ -1,9 +1,8 @@
 body {
   font-family: "Manrope", sans-serif;
   font-size: 14px;
-  background-image: url('../images/oie_8WcwDxQAzX8i.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+
+  background-color: #ecedf0;
 }
 h1,
 h2,
@@ -33,6 +32,7 @@ header {
   flex-direction: column;
   padding: 15px 35px;
   align-items: end;
+  background: #195e83;
 }
 .header_heading {
   margin: 0;
@@ -45,10 +45,8 @@ header {
 
 .left_side {
   width: 45%;
-  /* padding: 0 30px; */
 }
 .right_side {
-  /* padding: 0 30px; */
   margin-left: 20px;
 }
 .skills_section,
@@ -63,23 +61,29 @@ header {
   margin-bottom: 10px;
 }
 .heading {
-  box-shadow: 10px 10px 34px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 34px -11px #195e83(0, 0, 0, 0.75);
   border-radius: 0px 8px 8px 0px;
-  background-color: gray;
+  background-color: #195e83;
   margin-left: -35px;
   padding: 15px 45px;
   margin-bottom: 10px;
 }
 .right_heading {
+  position: relative;
+
   box-shadow: 10px 10px 34px -11px rgba(0, 0, 0, 0.75);
+
   border-radius: 8px 0px 0px 8px;
-  background-color: gray;
+  background-color: #195e83;
   margin-right: -35px;
   padding: 15px 45px;
   margin-bottom: 10px;
 }
+
+
 .summary_text{
   padding: 8px 0px;
+  text-align: justify;
 }
 
 svg{

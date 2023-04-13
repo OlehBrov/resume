@@ -21,9 +21,9 @@ a {
   font-weight: 700;
   color: rgb(36, 36, 36);
 }
-.repo_link{
+.repo_link {
   text-decoration: none;
-    color: rgb(59, 58, 58);
+  color: rgb(59, 58, 58);
 }
 .contact_link {
   text-decoration: none;
@@ -32,7 +32,8 @@ a {
 }
 header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
   padding: 15px 35px;
   align-items: end;
   background: #195e83;
@@ -40,6 +41,9 @@ header {
 .header_heading {
   margin: 0;
   padding: 0;
+}
+h4 {
+  font-size: 24px;
 }
 .container {
   padding: 15px 35px;
@@ -133,8 +137,7 @@ svg {
   margin-bottom: 8px;
 }
 
-
-.technics{
+.technics {
   display: flex;
   align-items: baseline;
   justify-content: space-between;

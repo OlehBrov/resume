@@ -21,11 +21,14 @@ a {
   font-weight: 700;
   color: rgb(36, 36, 36);
 }
-
-.contact_link{
-text-decoration: none;
-color: inherit;
-margin-left: -15px;
+.repo_link{
+  text-decoration: none;
+    color: rgb(59, 58, 58);
+}
+.contact_link {
+  text-decoration: none;
+  color: inherit;
+  margin-left: -15px;
 }
 header {
   display: flex;
@@ -50,8 +53,7 @@ header {
   margin-left: 20px;
 }
 
-.cv_photo{
-
+.cv_photo {
   display: block;
   width: 100%;
   overflow: hidden;
@@ -66,7 +68,7 @@ header {
   overflow: hidden;
   border-radius: 50%;
   border: 1px solid grey;
-    box-shadow: 10px 10px 34px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 34px -11px rgba(0, 0, 0, 0.75);
   margin-bottom: 10px;
 }
 .heading {
@@ -89,53 +91,64 @@ header {
   margin-bottom: 10px;
 }
 
-
-.summary_text{
+.summary_text {
   padding: 8px 0px;
   text-align: justify;
 }
 
-svg{
+svg {
   display: inline-block;
   width: 17px;
   fill: black;
   margin-right: 5px;
-  
 }
 
-.list{
+.list {
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin-bottom: 25px;
 }
 
-.project_item{
+.project_item {
   position: relative;
- border-left: 2px solid red;;
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid red;
   position: relative;
   padding-left: 10px;
 }
-.project_item::after{
+.project_item::after {
   position: absolute;
-  content: '';
+  content: "";
   left: 0;
   bottom: 0;
   /* height: 3px; */
   width: 50%;
   border-bottom: 2px solid red;
 }
-.project_tech{
+.project_tech {
   margin-top: 8px;
   color: rgb(59, 58, 58);
   margin-bottom: 8px;
 }
 
-.skills_list_soft{
+
+.technics{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.skills_list_soft,
+.skills_list {
   list-style: circle;
 }
 
-.profession,
-.dates_period{
+.dates_period {
   font-weight: 700;
+}
+
+.profession {
+  margin-left: 20px;
+  margin-top: 5px;
 }

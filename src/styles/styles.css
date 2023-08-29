@@ -24,6 +24,8 @@ a {
 .repo_link {
   text-decoration: none;
   color: rgb(59, 58, 58);
+  margin-right: 10px;
+  
 }
 .contact_link {
   text-decoration: none;
@@ -72,11 +74,11 @@ h4 {
   overflow: hidden;
   border-radius: 50%;
   border: 1px solid grey;
-  box-shadow: 10px 10px 34px -11px rgba(0, 0, 0, 0.75);
+  /* box-shadow: 10px 10px 34px -11px rgba(0, 0, 0, 0.75); */
   margin-bottom: 10px;
 }
 .heading {
-  box-shadow: 10px 10px 34px -11px #195e83(0, 0, 0, 0.75);
+  /* box-shadow: 10px 10px 34px -11px #195e83(0, 0, 0, 0.75); */
   border-radius: 0px 8px 8px 0px;
   background-color: #195e83;
   margin-left: -35px;
@@ -86,7 +88,7 @@ h4 {
 .right_heading {
   position: relative;
 
-  box-shadow: 10px 10px 34px -11px rgba(0, 0, 0, 0.75);
+  /* box-shadow: 10px 10px 34px -11px rgba(0, 0, 0, 0.75); */
 
   border-radius: 8px 0px 0px 8px;
   background-color: #195e83;
@@ -135,6 +137,7 @@ svg {
   margin-top: 8px;
   color: rgb(59, 58, 58);
   margin-bottom: 8px;
+  margin-right: auto;
 }
 
 .technics {

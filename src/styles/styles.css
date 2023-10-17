@@ -20,6 +20,7 @@ ul {
 a {
   font-weight: 700;
   color: rgb(36, 36, 36);
+  text-decoration: none;
 }
 .repo_link {
   text-decoration: none;
